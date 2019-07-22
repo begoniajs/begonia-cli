@@ -1,0 +1,10 @@
+/node_modules/
+.editorconfig
+.gitignore
+.npmignore
+
+/test/
+/doc/
+/.vscode/
+/.git/
+/frontend/

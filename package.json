@@ -1,0 +1,31 @@
+{
+  "name": "begonia-cli",
+  "version": "0.0.1",
+  "description": "A launcher and manager for begonia framework",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/begoniajs/begonia-cli.git"
+  },
+  "keywords": [
+    "begonia",
+    "cli",
+    "launcher"
+  ],
+  "author": "Brave Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/begoniajs/begonia-cli/issues"
+  },
+  "homepage": "https://github.com/begoniajs/begonia-cli#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "luomo": "0.0.0"
+  },
+  "bin": {
+    "becli": "bin/becli.js"
+  }
+}
