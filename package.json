@@ -22,10 +22,12 @@
   },
   "homepage": "https://github.com/begoniajs/begonia-cli#readme",
   "dependencies": {
+    "commander": "^2.20.0",
     "express": "^4.17.1",
     "luomo": "0.0.0"
   },
   "bin": {
     "becli": "bin/becli.js"
-  }
+  },
+  "devDependencies": {}
 }
