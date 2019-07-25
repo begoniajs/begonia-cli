@@ -2,7 +2,7 @@
   "name": "begonia-cli",
   "version": "0.0.1",
   "description": "A launcher and manager for begonia framework",
-  "main": "./lib/index.js",
+  "main": "./bin/becli.js",
   "scripts": {
     "test": "test"
   },
@@ -23,8 +23,13 @@
   "homepage": "https://github.com/begoniajs/begonia-cli#readme",
   "dependencies": {
     "commander": "^2.20.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
     "express": "^4.17.1",
-    "luomo": "0.0.0"
+    "hbs": "^4.0.4",
+    "http-errors": "^1.7.3",
+    "luomo": "0.0.0",
+    "morgan": "^1.9.1"
   },
   "bin": {
     "becli": "bin/becli.js"
